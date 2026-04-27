@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" role="img" aria-label="日本企業と外国人材をつなぐイメージ">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EEF3FB"/>
+      <stop offset="100%" stop-color="#D6E1F3"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0B3D91"/>
+      <stop offset="100%" stop-color="#093273"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FBBF24"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="500" rx="32" fill="url(#bg)"/>
+
+  <!-- Globe -->
+  <circle cx="300" cy="245" r="160" fill="url(#brand)" opacity="0.95"/>
+  <ellipse cx="300" cy="245" rx="160" ry="60" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+  <ellipse cx="300" cy="245" rx="60" ry="160" fill="none" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="2"/>
+  <ellipse cx="300" cy="245" rx="160" ry="100" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+  <ellipse cx="300" cy="245" rx="100" ry="160" fill="none" stroke="#FFFFFF" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Connection dots -->
+  <circle cx="180" cy="180" r="10" fill="#F59E0B"/>
+  <circle cx="430" cy="195" r="10" fill="#F59E0B"/>
+  <circle cx="190" cy="320" r="10" fill="#FBBF24"/>
+  <circle cx="420" cy="310" r="10" fill="#FBBF24"/>
+  <circle cx="305" cy="120" r="12" fill="#FFFFFF"/>
+
+  <!-- Connection lines -->
+  <g stroke="#FFFFFF" stroke-opacity="0.55" stroke-width="2" stroke-dasharray="4 4">
+    <line x1="180" y1="180" x2="305" y2="120"/>
+    <line x1="430" y1="195" x2="305" y2="120"/>
+    <line x1="190" y1="320" x2="305" y2="120"/>
+    <line x1="420" y1="310" x2="305" y2="120"/>
+  </g>
+
+  <!-- Floating accent badge -->
+  <g transform="translate(440 80)">
+    <rect width="120" height="44" rx="22" fill="url(#accent)"/>
+    <text x="60" y="29" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A" text-anchor="middle">ONE-STOP</text>
+  </g>
+
+  <!-- Floating brand badge -->
+  <g transform="translate(40 410)">
+    <rect width="180" height="44" rx="22" fill="#FFFFFF"/>
+    <circle cx="22" cy="22" r="6" fill="#0B3D91"/>
+    <text x="36" y="28" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#0B3D91">監理団体許可済</text>
+  </g>
+</svg>
