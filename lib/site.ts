@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "協同組合グローバルワークス",
   shortName: "グローバルワークス",
-  url: "https://example.com",
+  url: "https://rapole.or.jp",
   metaTitle:
     "外国人材の採用なら協同組合グローバルワークス｜紹介・在留資格・定着支援をワンストップ",
   metaDescription:
